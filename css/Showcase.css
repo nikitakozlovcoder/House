@@ -1,0 +1,14 @@
+.showcase{
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.showcase_grid{
+    margin-top: 40px;
+}
+.showcase_grid_item{
+    margin-top: 20px;
+}
+
+.showcase_grid_expand{
+    display: none;
+}
