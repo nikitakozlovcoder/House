@@ -6,7 +6,7 @@ button.onclick = function () {
 
     expandedNav ? navLinks.style.height = "0" : navLinks.style.height = "170px";
     expandedNav = !expandedNav;
-}
+};
 function onScroll() {
     var nav = document.getElementsByClassName('header_nav_main')[0];
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
