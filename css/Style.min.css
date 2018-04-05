@@ -928,7 +928,7 @@ header  a:focus, header a:hover, header a:active, .header_links-active {
 }
 .footer{
     background-size: cover;
-    background: url("../img/1920x1080/02.jpg") no-repeat center;
+    background:#33363c url("../img/1920x1080/02.jpg") no-repeat center;
     margin-top: 80px;
     padding-top: 80px;
 }
