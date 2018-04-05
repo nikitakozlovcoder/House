@@ -28,3 +28,6 @@
   color: white;
   opacity: 1;
   cursor: pointer; }
+
+.footer_submit:hover {
+  background-color: #54bfd0; }

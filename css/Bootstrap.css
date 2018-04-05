@@ -848,6 +848,9 @@ header a:focus, header a:hover, header a:active, .header_links-active {
   opacity: 1;
   cursor: pointer; }
 
+.footer_submit:hover {
+  background-color: #54bfd0; }
+
 .products-grid {
   position: relative;
   margin-top: 100px; }
