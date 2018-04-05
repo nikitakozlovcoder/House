@@ -640,15 +640,6 @@ a {
   h3 {
     page-break-after: avoid; } }
 
-.header {
-  min-height: 100vh;
-  background: #33363c url("../img/1920x1080/01.jpg") no-repeat center;
-  background-size: cover;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  position: relative; }
-
 .nav_expand {
   cursor: pointer; }
 
@@ -805,12 +796,6 @@ header a:focus, header a:hover, header a:active, .header_links-active {
 
 .showcase_grid_expand:hover {
   opacity: 0.9; }
-
-.footer {
-  background-size: cover;
-  background: url("../img/1920x1080/02.jpg") no-repeat center;
-  margin-top: 80px;
-  padding-top: 80px; }
 
 .footer_col {
   padding: 30px 0;
