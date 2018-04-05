@@ -27,6 +27,7 @@ a:focus, a:hover, a:active {
 .header_nav_main {
   position: fixed;
   width: 100%;
+  top: 0;
   background: #ffffff;
   z-index: 100;
   border-bottom: 1px #ccd0d6 solid; }
@@ -44,7 +45,8 @@ a:focus, a:hover, a:active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: height 0.2s ease-in-out; } }
+    transition: height 0.2s ease-in-out;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); } }
 
 .header_info-wrap {
   z-index: 10;

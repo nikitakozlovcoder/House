@@ -8,6 +8,11 @@
 .showcase_grid_item{
     margin-top: 20px;
 }
+.showcase_grid_item img{
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
 .showcase_grid_expand{
     display: block;
     position: absolute;
