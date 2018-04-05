@@ -1,8 +1,8 @@
 
 .header{
     min-height: 100vh;
-    background: url("../img/1920x1080/01.jpg") no-repeat center;
     background-size: cover;
+    background: #33363c url("../img/1920x1080/01.jpg") no-repeat center;
     color: #ffffff;
     display: flex;
     flex-direction: column;
