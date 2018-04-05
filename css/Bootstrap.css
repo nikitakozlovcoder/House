@@ -649,6 +649,9 @@ a {
   flex-direction: column;
   position: relative; }
 
+.nav_expand {
+  cursor: pointer; }
+
 a {
   font-family: Hind, sans-serif;
   outline: 0;
@@ -662,10 +665,26 @@ a:focus, a:hover, a:active {
   justify-self: center; }
 
 .header_nav_main {
-  z-index: 10;
   position: fixed;
   width: 100%;
-  border-bottom: 1px #777a7f solid; }
+  background: #ffffff;
+  z-index: 100;
+  border-bottom: 1px #ccd0d6 solid; }
+
+@media screen and (max-width: 800px) {
+  .header_links {
+    position: fixed;
+    top: 83px;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    height: 0;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.2s ease-in-out; } }
 
 .header_info-wrap {
   z-index: 10;
@@ -684,7 +703,8 @@ a:focus, a:hover, a:active {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 20px; }
+  padding: 30px 20px;
+  height: 82px; }
 
 .header_info_button {
   padding: 15px;
@@ -693,18 +713,17 @@ a:focus, a:hover, a:active {
   border: 1px #777a7f solid; }
 
 .header_link {
-  color: #b0b1b5;
+  color: black;
   font-size: 16px;
-  padding: 0 20px;
+  padding: 10px 20px;
   text-transform: uppercase; }
 
 header a:focus, header a:hover, header a:active, .header_links-active {
   position: relative;
-  color: #FAFBFF; }
+  color: black; }
 
 .nav_light {
-  background: #ffffff;
-  z-index: 100;
+  background: #ffffff !important;
   border-bottom: 1px #ccd0d6 solid; }
 
 .nav_light .header_link {
@@ -882,6 +901,15 @@ header a:focus, header a:hover, header a:active, .header_links-active {
     flex-basis: 50%; } }
 
 @media screen and (min-width: 800px) {
+  .header_nav_main {
+    border-bottom: 1px #777a7f solid;
+    background-color: transparent; }
+  header a:focus, header a:hover, header a:active, .header_links-active {
+    color: #FAFBFF; }
+  .header_link {
+    color: #b0b1b5; }
+  .nav_expand {
+    display: none; }
   body {
     text-align: left; }
   .text {

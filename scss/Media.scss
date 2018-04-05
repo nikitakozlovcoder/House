@@ -1,4 +1,8 @@
+
+
+
 @media screen and (min-width: 500px ){
+
     .products_columns{
         display: flex;
         flex-wrap: wrap;
@@ -57,6 +61,20 @@
 
 }
 @media screen and (min-width: 800px ) {
+    .header_nav_main{
+        border-bottom: 1px #777a7f solid;
+        background-color: transparent;
+    }
+    header  a:focus, header a:hover, header a:active, .header_links-active {
+        color: #FAFBFF;
+}
+    .header_link{
+         color: #b0b1b5;
+    }
+
+    .nav_expand{
+        display: none;
+    }
    body{
        text-align: left;
    }
