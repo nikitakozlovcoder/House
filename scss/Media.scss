@@ -1,0 +1,108 @@
+@media screen and (min-width: 500px ){
+    .products_columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .products_item{
+        flex-basis: 40%;
+    }
+    .products_item:first-child{
+        flex-basis: 100%;
+    }
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .features_item{
+        flex-basis: calc(100% / 2);
+    }
+    .info_cols{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info .wrap{
+        padding-right: 0;
+    }
+    .info_col{
+        flex-basis: 49%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .info_col_img_wrap {
+        height: 45vmin;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    .showcase_grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .showcase_grid_item:first-child{
+        flex-basis: 100%;
+    }
+    .showcase_grid_item {
+        padding: 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+
+
+}
+@media screen and (min-width: 800px ) {
+   body{
+       text-align: left;
+   }
+    .text{
+        max-width: 600px;
+    }
+     .products_item {
+        flex-basis: 32%;
+     }
+    .products_item:first-child{
+        flex-basis: 32%;
+    }
+    .features_item{
+        flex-basis: calc(100% / 3);
+    }
+    .showcase_grid_item:first-child{
+        flex-basis: calc(100%/3);
+    }
+    .showcase_grid_item{
+        flex-basis: calc(100%/3);
+    }
+    .showcase_grid_item{
+        transition: transform 0.1s linear;
+    }
+    .showcase_grid_item:hover{
+        transform: scale(1.4);
+    }
+}
+@media screen and (min-width: 1100px ) {
+    .footer_cols{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .footer_col{
+        flex-basis: 49%;
+    }
+}
+
+@media screen and (min-width: 1200px ) {
+    .showcase_grid_item:first-child{
+        flex-basis: calc(100%/4);
+    }
+    .showcase_grid_item{
+        flex-basis: calc(100%/4);
+    }
+
+}
