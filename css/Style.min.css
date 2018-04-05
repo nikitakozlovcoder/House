@@ -772,6 +772,7 @@ a{
 .header{
     min-height: 100vh;
     background: url("../img/1920x1080/01.jpg") no-repeat center;
+    background-color: #33363c;
     background-size: cover;
     color: #ffffff;
     display: flex;
